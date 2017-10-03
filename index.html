@@ -9,8 +9,34 @@
 </head>
 
 <body>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit placeat voluptas nemo fugit eum, reiciendis quia nesciunt explicabo, ex, unde earum magni ad dolor odio aut veritatis ullam. Quia, nihil!</p>
-    <video id="media" src=""></video>
+    <table>
+        <tbody><tr><th>Music Symbol</th><th>Music Symbol Name</th><th>Music Symbol Code</th></tr>
+        <tr><td>♩</td><td>Musical quarter note</td><td>&amp;#9833;</td></tr>
+        <tr><td>♪</td><td>Musical eighth note</td><td>&amp;#9834;</td></tr>
+        <tr><td>♫</td><td>Musical single bar note</td><td>&amp;#9835;</td></tr>
+        <tr><td>♬</td><td>Musical double bar note</td><td>&amp;#9836;</td></tr>
+        <tr><td>♭</td><td>Flat note</td><td>&amp;#9837;</td></tr>
+        <tr><td>♮</td><td>Natural note</td><td>&amp;#9838;</td></tr>
+        <tr><td>♯</td><td>Sharp note</td><td>&amp;#9839;</td></tr>
+        <tr><td>𝄪</td><td>Double sharp note</td><td>&amp;#119082;</td></tr>
+        <tr><td>𝄆</td><td>Musical Symbol Left Repeat Sign</td><td>&amp;#x1D106;</td></tr>
+        <tr><td>𝄇</td><td>Musical Symbol Right Repeat Sign</td><td>&amp;#x1D107;</td></tr>
+        <tr><td>𝄈</td><td>Musical Symbol Repeat Dots</td><td>&amp;#x1D108;</td></tr>
+        <tr><td>𝄐</td><td>Musical Symbol Fermata</td><td>&amp;#x1D110;</td></tr>
+        <tr><td>𝄑</td><td>Musical Symbol Fermata Below</td><td>&amp;#x1D111;</td></tr>
+        <tr><td>𝄒</td><td>Musical Symbol Breath Mark</td><td>&amp;#x1D112;</td></tr>
+        <tr><td>𝆒</td><td>Musical Symbol Crescendo</td><td>&amp;#x1D192;</td></tr>
+        <tr><td>𝆓</td><td>Musical Symbol Decrescendo</td><td>&amp;#x1D193;</td></tr>
+        <tr><td>𝄫</td><td>Double flat note</td><td>&amp;#119083;</td></tr>
+        <tr><td>𝄞</td><td>G clef</td><td>&amp;#119070;</td></tr>
+        <tr><td>𝄢</td><td>F clef</td><td>&amp;#119074;</td></tr>
+        <tr><td>𝄡</td><td>C clef</td><td>&amp;#119073;</td></tr>
+        <tr><td>🎹</td><td>Keyboard</td><td>&amp;#127929;</td></tr>
+        <tr><td>🎼</td><td>Score</td><td>&amp;#127932;</td></tr>
+        <tr><td>♪</td><td>Eighth note alt code</td><td>13</td></tr>
+        <tr><td>♫</td><td>Single bar note alt code</td><td>14</td></tr>
+        </tbody></table>
+    <video id="media" src="" class="hidden"></video>
     <script>
         window.mediaElement = document.getElementById('media');
         window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);

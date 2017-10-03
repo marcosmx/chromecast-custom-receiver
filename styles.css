@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "music-font";
+    src: url("fonts/bravura.otf") format("opentype")
+}
+
+.hidden {
+    display: none;
+}
+
+table {
+    font-family: 'music-font'
+}
